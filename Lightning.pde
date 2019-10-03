@@ -14,13 +14,13 @@ void drawBackground()
 {
 	fill(167);
 	stroke(167);
-	circle(0, 0, 100);
-	circle(50, 0, 75);
-	circle(100, 0, 100);
-	circle(150, 0, 75);
-	circle(200, 0, 100);
-	circle(250, 0, 75);
-	circle(300, 0, 100);
+	ellipse(0, 0, 100, 100);
+	ellipse(50, 0, 75, 75);
+	ellipse(100, 0, 100, 100);
+	ellipse(150, 0, 75, 75);
+	ellipse(200, 0, 100, 100);
+	ellipse(250, 0, 75, 75);
+	ellipse(300, 0, 100, 100);
 }
 void draw()
 {
